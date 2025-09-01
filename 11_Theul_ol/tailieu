@@ -1,0 +1,9 @@
+- Thẻ ul - unordered list.
+- thẻ ol - ordered list.
+- Thẻ li - list item: Là thẻ con trực tiếp của ul, ol.
+
+- emmet - gõ tắt
+  ul>li\*5{item$}
+
+- Thuộc tính ol: reversed (đảo ngược), type = ""
+- Thẻ ul, ol lồng nhau

@@ -1,0 +1,26 @@
+- Thẻ "body" là một phần tử của HTML dùng để chứa nội dung chính của trang web, gồm các cấu trúc phần tử
+  như văn bản, hình ảnh, đoạn mã JS, phần tử định dạng,...
+
+- Các phần tử HTML trong thẻ "body" được hiển thị trực tiếp trên trình duyệt của người dùng, và chúng tạo thành nội dung chính của trang web.
+
+1. Thẻ h1-h6: dùng để định nghĩa tiêu đề trang web. Chỉ sử dụng 1 thẻ h1 cho 1 page.
+2. Thẻ p - paragraph: để chứa các đoạn văn bản.
+3. Thẻ b - bold: in đậm (dùng "strong" thay thế thể hiện nội dung quan trọng).
+4. Thẻ i - italic: in nghiêng (dùng "em-emphasis" thay thế để nhấn mạnh nội dung).
+5. Thẻ u - underline: gạch chân.
+6. Thẻ a - anchor - gắn kèm đường dẫn.
+7. Thẻ img - image: hình ảnh.
+8. Thẻ ul - un-ordered list: danh sách không thứ tự.
+9. Thẻ ol - ordered list: danh sách có thứ tự
+
+- Tài liệu đọc thêm về html -> mdn web.
+
+- Phân biệt tag & element: ví dụ <h1> Đây là tiêu đề </h1>
+
+* <h1>: opening tag.
+* </h1>: closing tag.
+  ==> cả 2 gọi chung là tags.
+* Đây là tiêu đề: content.
+  ==> cả cụm gồm tags và content: HTML element.
+
+- alt+W để edit nhanh, diffchecker để so sánh 2 text

@@ -1,0 +1,15 @@
+Đường dẫn tương đối (relative path)
+→ Dựa vào vị trí file hiện tại (ví dụ index.html) để đi tìm file khác.
+
+./ = ngay trong thư mục hiện tại.
+
+../ = lùi ra 1 thư mục cha.
+
+../../ = lùi 2 thư mục cha…
+
+Đường dẫn tuyệt đối (absolute path)
+→ Luôn bắt đầu từ root:
+
+/ = thư mục gốc của project/server.
+
+Hoặc viết full URL (https://example.com/...).

@@ -1,0 +1,19 @@
+- "!DOCTYPE html" là một khai báo DOCTYPE (document type declaration) trong
+HTML, khai báo cho trình duyệt biết đang sử dụng HTML5 - phiên bản mới nhất của
+HTML hiện tại. 
+
+- Cặp thẻ "html", trong 1 file html chỉ có duy nhất 1 cặp thẻ
+html, dùng để định nghĩa phần thân của tài liệu HTML, thẻ "html" có thể kèm
+thuộc tính "lang" để chỉ ngôn ngữ được viết cho website "en" or "vi"
+
+- Cặp thẻ "head" là 1 "Phần tử" của HTML dùng để chứa thông tin về trang web mà không hiển thị trực tiếp cho người dùng.
+Các thông tin trong thẻ "head" rất quan trọng trong việc tối ưu hóa công cụ tìm kiếm "SEO", vì chúng giúp các công cụ tìm kiếm hiểu được
+nội dung và ý nghĩa trang web.
+
+- "meta name = viewport" content ="width=device-width, initial-scale=1.0"
+1. Sử dụng để hỗ trợ multil screen size, hỗ trợ kích thước màn hình khác nhau như PC, mobile, tablet...
+2. width=device-width: set chiều rộng bằng chiều rộng của thiết bị.
+3. initial-scale=1.0 tỷ lệ hiển thị trang web 100%, để tránh bị phóng to hoặc thu nhỏ.
+
+- Ctrl + k + c để comment trong htmk
+- Crll + K + U để uncoment

@@ -1,0 +1,7 @@
+- href="" -> tải lên đầu trang.
+- href="#' -> trở lên đầu trang.
+- href="/" -> trở lại home, vì khi để dấu / nó sẽ đẩy về đường dẫn gốc và sẽ đọc file index, index là file đặt biệt ưu tiên hiển thị trên web
+- target="\_self" -> mở tại trang hiện tại.
+- target ="\_blank" -> mở trong tab mới.
+- liên kết tới số điện thoại (tel): href="tel: 012343545" -> chuyển hướng đến 1 ứng dụng có thể gọi nếu máy đã cài
+- Liên kết tới email (mailto): href="mailto:giahanho077@gmail.com" -> chuyển hướng đến 1 ứng dụng để gửi mail
