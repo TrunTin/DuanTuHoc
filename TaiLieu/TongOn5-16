@@ -1,0 +1,71 @@
+---Github---
+
+- Phần remote - Tạo repository trên github: Lưu trữ dự án trên máy chủ git
+  B1: vào github - new repository - ko chọn Add a README file - create repository.
+- Phần local:
+  B1: Tạo folder dự án (working directory)
+  B2: ở terminal, get init
+  B3: git add . / git add ten_thu_muc (vào staging area) chờ commit
+  B4: git commit -m "first commit"
+  B5: git branch -M main (đổi sang nhánh main)
+  B6: git remote add origin <link được tạo ở B1 phần remote> --> mở cổng kết nối đến máy chủ git nơi đẩy file lên
+  B7: git push -u origin main -> push code lên máy chủ git
+
+- git status - để xem các file đã add theo dõi bị sửa đổi
+- sau khi đã sửa đổi cần git add và git commit -m "sua doi lan 1" để cập nhật lại
+- sau đó dùng git push để đẩy code lên
+
+- Cách để git pull:
+  B1: Tạo thư mục dự án local
+  B2: git init
+  B3: git remote add origin <link chứa dự án code trên github>
+  B4: git branch -M main
+  B5: git pull origin main (kéo code từ nhánh main trên github về)
+
+  \*Lưu ý: Trong cùng 1 dự án, nếu A đã sửa, commit và push lên github. Nếu B cũng sửa chung 1 chỗ, commit, push sẽ báo lỗi.
+  Lý do: bởi vì đã có sự thay đổi trong dự án
+  Cách khắc phục: git pull origin main trước, sẽ phát hiện xung đột "Current change" là code đang sửa, "Incoming change" là code trên github. Chọn phương án nào tối ưu nhất.
+
+- Git Branches Explained:
+  Kiểm tra nhánh git: git branch (local) / git branch -a (--all: lấy tất cả)
+  Tạo nhánh mới local: git branch -c <tên nhánh> -> copy toàn bộ code ở nhánh gõ lệnh, sang nhánh vừa tạo
+  Chuyển nhánh: git checkout <tên nhánh>
+  Tạo rồi chuyển nhánh luôn: git checkout -b <tên nhánh>
+  Đẩy code từ các nhánh lên github: git push -u origin <tên nhánh> / git push --set-upstream origin <tên nhánh> cho lần đầu tiên để tạo liên kết nhánh local và trên máy chủ git, từ lần 2 trở đi chỉ cần git push
+
+- Xóa nhánh trên local:
+  B1: không đứng ở nhánh cần xóa, ví dụ xóa nhánh congviec1 thì phải chuyển nhánh sang main or congviec2
+  B2: git branch -d <ten nhánh cần xóa>
+  Lưu ý: nhánh đã commit nhưng chưa push thì không thể xóa được, nếu vẫn muốn xóa dùng git branch -D <tên nhánh>
+
+- Xóa nhánh trên github:
+  B1: git push -d origin <tên nhánh>
+
+- Thực tế khi sửa chữa trên github (ví dụ edit ở file home.html trên nhánh main):
+  1: git branch để xem đã ở nhánh main chưa
+  2: git checkout -b fix-home (tạo nhánh con fix-home và chuyển sang nhánh fix-home)
+  3: sửa file home.html trong nhánh fix-home này
+  4: git add home.html
+  5: git commit -m "Chỉnh sửa nội dung home.html"
+  6: Push nhánh mới này lên github, git push origin fix-home
+  7: quay lại nhánh main, git checkout main
+  8: Merge thay đổi từ nhánh fix-home sang main, git merge fix-home. Merge hoạt động theo nguyên tắc: "Mình đang đứng ở nhánh nào thì nhánh đó sẽ nhận code từ nhánh khác."
+  9: Push nhánh main lên github để cập nhật, git push origin main
+
+Câu hỏi: Tại sao phải đẩy nhánh mới lên GitHub rồi mới merge? tại sao không merge trước luôn?
+
+- Có 2 tình huống:
+
+Trường hợp làm việc 1 mình (solo project):
+Bạn có thể merge trực tiếp trên máy (local) trước, không cần push nhánh phụ lên GitHub.
+→ Quy trình: git checkout main → git merge fix-home → git push origin main.
+
+Trường hợp làm việc nhóm (teamwork):
+Bạn cần push nhánh fix-home lên GitHub để mọi người review code. Sau đó tạo Pull Request (PR) trên GitHub.
+Người khác sẽ xem, góp ý, rồi mới merge vào main.
+→ Đây là lý do nhiều tutorial khuyên push nhánh phụ lên trước.
+
+- Git log:
+  Kiểm tra lịch sử commit: git log
+  Nhìn id và tiêu đề: git log --oneline
+  Quay trở lại các thời điểm commit: git checkout <ID>
