@@ -1,0 +1,3 @@
+- CSS cơ bản - inline, internal, external css
+- Để cho a nằm trên từng dòng mới -> từ khóa: vscode emmet inline new line
+- Độ ưu tiên: inline-> cao nhất, tiếp tới là internal và external -> cái nào viết sau sẽ ưu tiên
