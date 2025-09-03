@@ -1,0 +1,16 @@
+body {
+  /* thêm background cho body */
+  background-image: url(../img/background1.jpg);
+}
+
+h2 {
+  /* opacity: 0; */
+  visibility: hidden;
+  /* display: none; */
+  /* Thêm màu nền cho thẻ */
+  background-color: rgb(19, 93, 196);
+}
+
+span {
+  visibility: visible;
+}

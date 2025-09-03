@@ -1,0 +1,9 @@
+- color: Màu chũ
+- font-style: Kiểu chữ
+- font-size: cỡ chữ
+- font-famlily: font chữ
+- text-transform: viết hoa, viết thường
+- text-align: căn dòng
+- Cách thay đổi phím tắt comment css: file -> Preferences -> keyboard shortcuts -> "line command" -> toggle line comment
+- background-image: url(): thêm ảnh nền
+- background-color: thêm màu nền 

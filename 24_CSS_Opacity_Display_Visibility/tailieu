@@ -1,0 +1,9 @@
+- Opacity: quy định độ trong suốt của phần tử
+
+* 0.0 -> 1.0
+* 0% -> 100%
+  \*Lưu ý:
+
+- Opacity: làm mờ, chiếm không gian, tương tác, ẩn phần tử con, không thừa kế, không hiển thị phần tử con, hỗ trợ animations.
+- visibility: hidden: ẩn đi, chiếm không gian,, không tương tác, ẩn phần tử con, thừa kế, hiển thị phần tử con, hỗ trợ animations.
+- display: none: ẩn đi, không chiếm không gian, không tương tác, ẩn phần tử con, không thừa kế, không hiển thị phần tử con, không hỗ trợ animations.

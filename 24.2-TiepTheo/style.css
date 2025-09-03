@@ -1,0 +1,14 @@
+img {
+  transition: 1.5s;
+}
+
+/* Nếu input được tick thì chọn tất cả img đồng cấp sau nó */
+input:checked ~ img {
+  /* Nếu biến mất khỏi giao diện */
+  /* display: none; */
+  /* Mất khỏi giao diện, vẫn chiếm vị trí */
+  /* visibility: hidden; */
+  /* Làm mờ đi và không tương tác được */
+  opacity: 0;
+  visibility: hidden;
+}
