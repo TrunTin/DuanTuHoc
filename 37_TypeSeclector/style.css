@@ -1,0 +1,29 @@
+/* p:first-child {
+  color: red;
+  font-size: 30px;
+} */
+
+/* p:first-of-type {
+  color: blue;
+  font-size: 30px;
+} */
+
+/* h2:last-of-type {
+  color: pink;
+  font-size: 35px;
+} */
+
+/* p:nth-of-type(3) {
+  color: red;
+  font-size: 30px;
+} */
+
+/* p:nth-of-type(odd) {
+  color: red;
+  font-size: 30px;
+} */
+
+p:only-of-type {
+  color: blue;
+  font-size: 40px;
+}

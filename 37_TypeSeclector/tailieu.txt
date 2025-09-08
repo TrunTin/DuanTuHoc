@@ -1,0 +1,5 @@
+:first-of-type: thẻ xuất hiện đầu tiên trong thẻ cha
+:last-of-type: xuất hiện cuối cùng trong thẻ cha
+:nth-of-type(n): xuất hiện thứ n trong thẻ cha
+:nth-last-of-type(n): Xuất hiện thứ n trong thẻ cha, tính từ cuối lên
+:only-of-type: xuất hiện duy nhất trong thẻ cha

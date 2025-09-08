@@ -1,0 +1,5 @@
+-:first-child: thẻ con đầu tiên
+-:last-child: thẻ con cuối cùng
+-:nth-child(n): thẻ con thứ n từ trên xuống
+-:nth-last-child(n): thẻ con thứ n, tính từ cuối lên (odd, even, 2n+1)
+-:only-child: thẻ con duy nhất

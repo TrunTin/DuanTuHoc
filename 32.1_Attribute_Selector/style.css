@@ -1,0 +1,39 @@
+/* Chọn các thẻ có thuộc tính href */
+/* [href] {
+  color: red;
+} */
+
+/* Chọn thẻ a có thuộc tính href */
+/* a[href] {
+  color: red;
+} */
+
+/* Chọn thẻ có thuộc tính  [target="_blank"*/
+/* [target="_blank"] {
+  color: pink;
+} */
+
+/*  chọn tất cả thẻ có chứa thuộc tính title có giá trị tuhoc.cc*/
+/* [title~="tuhoc.cc"] {
+  color: red;
+} */
+
+/* Chọn các thẻ có thuộc tính title có chứa chuỗi tuhoc.cc trong giá trị */
+/* [title*="tuhoc.cc"] {
+  color: red;
+} */
+
+/* [attribute|="value"]: VD: [title|="pic"]: chọn tất cả các thẻ có thuộc tính title với giá trị có từ duy nhất bắt đầu bằng từ pic: pic, pic-123,...*/
+/* [title|="pic"] {
+  color: yellow;
+} */
+
+/* [title^="pic"]: chọn tất cả có thuộc tính title với giá trị bắt đầu từ chữ pic, không qtam đằng sau*/
+/* [title^="pic"] {
+  color: red;
+} */
+
+/* chọn các thuộc tính title kết thúc bằng ký tự c */
+[title$="c"] {
+  color: pink;
+}

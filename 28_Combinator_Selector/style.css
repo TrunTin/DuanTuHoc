@@ -1,0 +1,29 @@
+/* Chọn toàn bộ các phần tử */
+/* * {
+  color: red;
+  font-size: 24px;
+} */
+
+/* chọn các thẻ h2 có class demo */
+/* h2.demo {
+  color: blue;
+} */
+
+/* Chọn các thẻ h1 và h2 và p */
+/* h1,
+h2,
+p {
+  color: yellow;
+} */
+
+/* Chọn các thẻ p và class demo*/
+/* p,
+.demo,
+#title {
+  color: red;
+} */
+
+/* Chọn các phần tử đồng thời có 2 class  */
+/* .demo.demo2 {
+  color: red;
+} */

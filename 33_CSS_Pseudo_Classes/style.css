@@ -1,0 +1,33 @@
+/* .di_chuot:hover {
+  color: red;
+  font-size: 30px;
+} */
+
+/* .di_chuot:active {
+  color: red;
+  font-size: 30px;
+} */
+
+/* .click_me:link {
+  color: chocolate;
+} */
+
+/* .click_me:visited {
+  color: red;
+} */
+
+.div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.div_elm {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+h2:target {
+  color: blue;
+}

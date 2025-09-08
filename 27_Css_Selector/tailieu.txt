@@ -1,0 +1,2 @@
+- Từ khóa: css selector
+- Từ khóa kiểm tra quy chuẩn: validator html

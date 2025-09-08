@@ -1,0 +1,14 @@
+
+:link -- link chưa truy cập
+:visited -- link đã truy cập
+:hover -- di chuyển chuột qua
+:active -- khi click vào và giữ chuột
+:empty -- không có nội dung
+:target --
+
+-Cú pháp chung-
+selector: pseudo-classes {
+    <khối lệnh css>
+    property:value;
+
+}
