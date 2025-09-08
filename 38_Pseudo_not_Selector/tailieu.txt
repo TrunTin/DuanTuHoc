@@ -1,0 +1,8 @@
+:not -- để loại trừ 1 phần tử không css lên nó
+- Thứ tự ưu tiên
+1. !important
+2. inline
+3. id(#)
+4. class(.) or pseudo-class(:)
+5. element(h,p,li,...)
+6. Universal selecter(*): Bộ chọn chung

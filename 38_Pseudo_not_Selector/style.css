@@ -1,0 +1,9 @@
+/* Chọn tất cả các thẻ có class top, loại trừ thẻ p */
+/* .top:not(p) {
+  background-color: yellow;
+} */
+
+/* Chọn tất cả các thẻ có class top, loại trừ thẻ kiểu loại con đầu tiên */
+.top:not(:first-of-type) {
+  background-color: yellow;
+}
