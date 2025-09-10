@@ -1,0 +1,33 @@
+div {
+  width: 100px;
+  height: 100px;
+  color: yellow;
+  background-color: red;
+  /* đệm */
+  padding: 20px 30px 40px 50px;
+  /* viền */
+  border: 10px outset blue;
+
+  /* border-top: 5px solid #000;
+  border-left: 5px dashed #5f06cc;
+  border-right: 5px solid pink;
+  border-bottom: 5px solid pink; */
+
+  /* kiểu viết viền 2 */
+  /* border-width: 10px 20px 30px 40px;
+  border-style: solid;
+  border-color: blue; */
+
+  /* kiểu viết viền 3 */
+  /* border-width: 10px 20px 30px 40px;
+  border-style: solid dotted dashed outset;
+  border-color: blue red pink yellow; */
+
+  /* border-radius: 30px; */
+  /* border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px; */
+
+  border-radius: 30px 50px;
+}

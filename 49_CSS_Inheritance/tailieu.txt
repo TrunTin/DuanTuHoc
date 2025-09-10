@@ -1,0 +1,3 @@
+-- Kế thừa trong CSS --
+- Inheritance: Các phần tử con nhận được các giá trị 
+thuộc tính kế thừa từ phần tử cha.

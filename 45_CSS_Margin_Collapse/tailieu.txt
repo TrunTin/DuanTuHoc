@@ -1,0 +1,6 @@
+- Margin collapse: là hiện tượng chồng lặp thuộc tính margin khi 2 phần tử liền kề cùng thiết lập margin với phần tử còn lại theo chiều dọc.
+- Cách khắc phục: 
+TH1: xảy ra khi 2 phần tử liền kề đặt thuộc tính margin theo chiều dọc
++ C1: Chỉ tác động margin 1 chiều
++ C2: Thêm display:fex và flex-direction: colum, vào thẻ cha chứa 2 phần tử
+TH2: xảy ra với phần tử có quan hệ cha con vd: div>h2

@@ -1,0 +1,7 @@
+- Box model: Trình duyệt luôn coi mỗi phần tử là 1 box - hộp chữ nhật
+- đi từ Trong ra Ngoài:
+1. Content (Nội dung: width, height) -> hình ảnh, text, video,...
+2. Padding -> khoảng đệm nội dung và viền (top, bottom, right, left)
+4. Border -> viền của phần tử (top, bottom, right, left), border-radius 
+5. margin -> Khoảng cách với các phần tử liền kề khác (top, bottom, right, left)
+* Kích thước cao * rộng của 1 phần tử = content + padding + border (không margin)

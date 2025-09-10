@@ -1,0 +1,91 @@
+- Ký tự đặc biệt từ khóa Entities
+- Thẻ Pre (preformated): giữ nguyên định dạng văn bản trong trình soạn thảo code
+- Thẻ code: sử dụng khi có 1 đoạn code, trình duyệt sẽ hiểu đây là 1 đoạn code
+- Dùng chung với pre để giữ định dạng khối code
+- codebeautify.org - escape
+- Highlighting code với từ khóa Primjs
+
+- từ khóa: Html table basics
+- Thuộc tính Colspan: chỉ định phần tử chiếm bao nhiêu "cột"
+- Thuộc tính Rowspan: chỉ định phần tử chiếm bao nhiêu "hàng"
+
+- CSS cơ bản - inline, internal, external css
+- Để cho a nằm trên từng dòng mới -> từ khóa: vscode emmet inline new line
+- Độ ưu tiên: inline-> cao nhất, tiếp tới là internal và external -> cái nào viết sau sẽ ưu tiên
+
+- color: Màu chũ
+- font-style: Kiểu chữ
+- font-size: cỡ chữ
+- font-famlily: font chữ
+- text-transform: viết hoa, viết thường
+- text-align: căn dòng
+- Cách thay đổi phím tắt comment css: file -> Preferences -> keyboard shortcuts -> "line command" -> toggle line comment
+- background-image: url(): thêm ảnh nền
+- background-color: thêm màu nền 
+
+- Opacity: quy định độ trong suốt của phần tử
+
+* 0.0 -> 1.0
+* 0% -> 100%
+  \*Lưu ý:
+
+- Opacity: làm mờ, chiếm không gian, tương tác, ẩn phần tử con, không thừa kế, không hiển thị phần tử con, hỗ trợ animations.
+- visibility: hidden: ẩn đi, chiếm không gian,, không tương tác, ẩn phần tử con, thừa kế, hiển thị phần tử con, hỗ trợ animations.
+- display: none: ẩn đi, không chiếm không gian, không tương tác, ẩn phần tử con, không thừa kế, không hiển thị phần tử con, không hỗ trợ animations.
+
+- từ khóa: make favicon online
+
+- từ khóa: vender prefix css, auto prefix, canisue.com
+
+- Từ khóa: css selector
+- Từ khóa kiểm tra quy chuẩn: validator html
+
+--Combinator selector--
+1. *: chọn tất cả các phần tử
+2. h1, p: chọn các tất cả các thẻ h1, p
+3. p, .demo: Chọn các thẻ p và class demo
+4. .demo.demo2: chọn các thẻ đồng thời có cả 2 class demo và demo2
+5. div p: chọn các thẻ p nằm trong thẻ div (lưu ý ở đây là dấu khoảng trắng)
+6. div>p: chọn các thẻ p là con trực tiếp của thẻ div (Lưu ý ở đây là dấu >)
+7. h1+h2: chọn thẻ h2 nằm sát ngay sau thẻ h1 (lưu ý dấu +)
+8. h1~h3: chọn tất cả thẻ h3 đứng sau thẻ h1 (lưu ý dấu ~)
+
+--Attribute selector--
+1. [href]: chọn các thẻ có thuộc tính href
+2. a[href]: chọn các thẻ a có thuộc tính href
+3. [target="_blank"]: chọn các thẻ có thuộc tính [target="_blank"]
+4. [title~="tuhoc.cc"]: chọn những phần tử mà thuộc tính title chứa một danh sách các từ cách nhau bằng dấu cách (space), trong đó có từ đúng bằng "tuhoc.cc"
+5. [title*="tuhoc.cc"]: chọn mọi phần tử có thuộc tính title mà giá trị chứa chuỗi con "tuhoc.cc" ở bất kỳ vị trí nào
+6. [title|="pic"]: Chọn các phần tử có thuộc tính title với value chỉ duy nhất "pic" hoặc "pic-"
+7. [title^="pic"]: chọn tất cả có thuộc tính title với giá trị bắt đầu từ chữ pic, không qtam đằng sau
+8. [title$="c"]: chọn các thuộc tính title kết thúc bằng ký tự c 
+
+--Pseudo classes selector--
+:link -- link chưa truy cập
+:visited -- link đã truy cập
+:hover -- di chuyển chuột qua
+:active -- khi click vào và giữ chuột
+:empty -- không có nội dung
+:target --
+
+--Pseudo child selector--
+-:first-child: thẻ con đầu tiên
+-:last-child: thẻ con cuối cùng
+-:nth-child(n): thẻ con thứ n từ trên xuống
+-:nth-last-child(n): thẻ con thứ n, tính từ cuối lên (odd, even, 2n+1)
+-:only-child: thẻ con duy nhất
+
+:first-of-type: thẻ xuất hiện đầu tiên trong thẻ cha
+:last-of-type: xuất hiện cuối cùng trong thẻ cha
+:nth-of-type(n): xuất hiện thứ n trong thẻ cha
+:nth-last-of-type(n): Xuất hiện thứ n trong thẻ cha, tính từ cuối lên
+:only-of-type: xuất hiện duy nhất trong thẻ cha
+
+:not -- để loại trừ 1 phần tử không css lên nó
+- Thứ tự ưu tiên
+1. !important
+2. inline
+3. id(#)
+4. class(.) or pseudo-class(:)
+5. element(h,p,li,...)
+6. Universal selecter(*): Bộ chọn chung

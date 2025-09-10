@@ -1,0 +1,8 @@
+- Box-sizing có 2 giá trị
++ content-box:
+- W và H là kích thước của content. nên khi có thêm padding, border nó sẽ làm tăng
+kích thước chung của phần tử.
+* nhăc lại: Kích thước phần tử = content + padding + border
++ border-box (thường xuyên dùng trong dự án thực tế)
+- W và H là kích thước của phần tử, nên khi có thêm padding, boder nó sẽ tự tính toán
+ kích thước của content sẽ còn bao nhiêu và sẽ luôn giữ nguyên kích thước phần tử.

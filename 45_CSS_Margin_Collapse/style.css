@@ -1,0 +1,28 @@
+/* .box {
+  width: 200px;
+  height: 200px;
+  border: 10px solid red;
+}
+
+.box1 {
+  margin-bottom: 50px;
+}
+
+.box2 {
+  margin-top: 70px;
+} */
+
+.box_parent {
+  background-color: pink;
+  height: 250px;
+  margin-top: 50px;
+  /* khắc phục hiện tượng collapse */
+  display: flex;
+  flex-direction: column;
+}
+
+.box_child {
+  background-color: blue;
+  width: 50%;
+  margin-top: 70px;
+}

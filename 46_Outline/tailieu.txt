@@ -1,0 +1,10 @@
+- Outline: là đường viền bao quanh mép ngoài cùng của đối tượng
++ Không làm tăng thêm kích thước phần tử
++ Đơn giản nó chỉ là 1 vùng bao quanh bên ngoài, bắt đầu từ viền ngoài cùng 
+border và chiếm cả vào phần margin
++ Nếu margin nhỏ hơn, nó sẽ phủ lên trên cả margin và các phần tử liền kề
++ Không áp dụng vẽ cho nhiều chiều như border-w, border-style,..
++ có outline-offset: cách viền ngoài cùng của border theo 1 khoảng do mình đưa vào
+- Trong trường hợp không có border thì outline sẽ tính như thế nào?
++ Ta có thể hiểu: outline sẽ tính từ chỗ có thể tính được kích thước phần tử như: content,
+border, padding
